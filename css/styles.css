@@ -147,13 +147,13 @@ body {
 .link-selected,
 .js-selected {
   color: #FFF;
-  background: #EF233C;
+  background: #2359EF;
 }
 /*
 .js-selected {
   font-weight: 700;
   color: #FFF;
-  background: #EF233C;
+  background: #2359EF;
 }*/
 
 /* ------ Main content area ------ */
@@ -351,7 +351,7 @@ body {
 
   .project-links a:hover {
     color: #FFF;
-    background: #EF233C;
+    background: #2359EF;
   }
 
   .project-links::after {
@@ -386,7 +386,7 @@ body {
 
 .social-icons a:hover {
   color: #FFF;
-  background: #EF233C;
+  background: #;
 }
 
 .social-icons a:active {
@@ -584,7 +584,7 @@ MEDIA QUERIES
 
   .navbar a:hover {
     color: #FFF;
-    background: #EF233C;
+    background: #2359EF;
   }
 
   .navbar a:active {
