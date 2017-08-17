@@ -200,7 +200,7 @@ body {
 .welcome h1 {
   margin: 0 auto;
   word-wrap: break-word;
-  font: 8rem 'Bungee Shade', cursive;
+  font: 8rem 'Bungee Shade', Courier;
 }
 
 /* --- About --- */
