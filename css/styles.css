@@ -165,7 +165,7 @@ body {
 
 .container {
   margin: 0 auto;
-  padding: 0rem 0rem;
+  padding: 7.5rem 0rem;
   max-width: 750px;
   width: 90%;
   text-align: center;
@@ -555,7 +555,7 @@ MEDIA QUERIES
     left: 0;
     width: 20%;
     height: 100%;
-    position: relative;
+    position: fixed;
     font-size: 1.8rem;
     display: flex;
     align-items: center;
