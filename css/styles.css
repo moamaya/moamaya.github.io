@@ -698,6 +698,7 @@ MEDIA QUERIES
   .project-tile-overlay {
     top: -1rem;
     opacity: 0;
+    transition: 1s ease;
   }
 
   .project-tile figure:hover .project-tile-overlay,
