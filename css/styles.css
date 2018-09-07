@@ -319,7 +319,17 @@ body {
   text-align: center;
   backface-visibility: hidden;
   background: rgba(0, 0, 0, 0.7);
-  transition: transform 0.3s, opacity 0.3s;
+  opacity 0.3s;
+  top: -1rem;
+  opacity: 0;
+  transition: 1s ease;
+
+}
+
+.project-tile figure:hover .project-tile-overlay,
+.project-tile figure.cs-hover .project-tile-overlay {
+  opacity: 1;
+  transform: translateY(1rem);
 }
 
 /* Top half of project tile overlay */
