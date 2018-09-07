@@ -66,6 +66,16 @@ p {
   clear: both;
 }
 
+.image-cropper {
+  max-width: 25%;
+  position: relative;
+  overflow: hidden;
+  border-width: thick;
+  border-style: solid;
+  border-color: #EDF2F4;
+  border-radius: 10%;
+}
+
 /*-------------------------------------
 SPECIFIC STYLES
 -------------------------------------*/
@@ -169,7 +179,7 @@ body {
   max-width: 750px;
   width: 90%;
   text-align: center;
-  overflow-y: auto;
+
 }
 
 .js-section {
@@ -250,12 +260,12 @@ body {
 
     .digitalcrafts-logo {
       width: 100%;
-      max-width: 200px;
+      max-width: 100px;
     }
 
     .wunderman-logo {
       width: 100%;
-      max-width: 280px;
+      max-width: 150px;
     }
 
 .job-description .header,
@@ -274,6 +284,7 @@ body {
   background: #2B2D42;
   display: flex;
   flex-direction: column;
+  overflow-y: auto;
 }
 
 .project-tile {
@@ -656,17 +667,6 @@ MEDIA QUERIES
 
   .about .container {
     max-width: 750px;
-  }
-
-  .image-cropper {
-    width: auto;
-    height: 190px;
-    position: relative;
-    overflow: hidden;
-    border-width: thick;
-    border-style: solid;
-    border-color: #EDF2F4;
-    border-radius: 10%;
   }
 
 
