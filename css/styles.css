@@ -659,14 +659,14 @@ MEDIA QUERIES
   }
 
   .image-cropper {
-    width: 118px;
-    height: 150px;
+    width: auto;
+    height: 190px;
     position: relative;
     overflow: hidden;
     border-width: thick;
     border-style: solid;
     border-color: #EDF2F4;
-    border-radius: 20%;
+    border-radius: 10%;
   }
 
 
