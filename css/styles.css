@@ -58,6 +58,16 @@ p {
   margin: 2rem 0 0 0;
 }
 
+/* For desing on hello screen (not used yet) */
+/* canvas {
+      z-index: -1;
+      height: auto;
+      width: auto;
+		  position: absolute;
+      top: 0;
+      left: 0;
+		} */
+
 /* --- Clearfix --- */
 
 .cf:after {
@@ -409,13 +419,13 @@ body {
 }
 
 .social-icons a:hover {
-  color: #FFF;
+  color: #474e5c;
   background: #;
 }
 
 .social-icons a:active {
-  color: #FFF;
-  background: #D90429;
+  color: #D90429;
+  background: #FFF;
 }
 
 .social-icons span {
